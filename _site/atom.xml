@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Breif !</title>
+ <title>Brief !</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2018-03-16T14:10:20-04:00</updated>
+ <updated>2018-03-16T14:32:38-04:00</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Ange Tato</name>
