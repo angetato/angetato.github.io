@@ -6,27 +6,27 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Breif !
+tagline:          'Blog de Ange Tato'
+description:      "Bienvenue sur mon blog. Je partage avec vous des petites <b>recettes</b> brèves qui pourront être utiles à plus d'un dans le domaine de l'intelligence artificielle."
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Ange Tato'
+  url:            angetato.com
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+#version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/angetato/
 
 paginate: 5
 paginate_path: "page:num"
-
+gems: ["jemoji"]
 gems:
   - jekyll-paginate
   - redcarpet

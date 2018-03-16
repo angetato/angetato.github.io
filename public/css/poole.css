@@ -233,6 +233,12 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+img.emoji {
+    display: inline;
+    height: 1em;
+    width: 1em;
+    margin-bottom: 0.25em;
+}
 
 /* Tables */
 table {
@@ -259,7 +265,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   font-weight: 300;
 }
 
