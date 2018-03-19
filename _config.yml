@@ -27,9 +27,14 @@ github:
 
 paginate: 5
 paginate_path: "page:num"
-gems: ["jemoji"]
-gems:
+
+#plugins: ['jekyll/scholar']
+
+
+#plugins: ["jemoji"]
+plugins:
   - jekyll-paginate
   - redcarpet
   - jekyll-gist
   - pygments.rb
+  - jemoji

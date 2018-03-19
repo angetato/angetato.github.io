@@ -11,7 +11,7 @@
 
   <title>
     
-      Hello World &middot; Ange T.!
+      Comment flouer un réseau de neuronnes ? &middot; Ange T.!
     
   </title>
 
@@ -93,23 +93,32 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">Hello World</h1>
-  <span class="post-date">16 Mar 2018</span>
+  <h1 class="post-title">Comment flouer un réseau de neuronnes ?</h1>
+  <span class="post-date">19 Mar 2018</span>
   <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  Allo les chefs. Dans cette recette, nous allons voir comment flouer un réseau de neuronnes de la plus simple des manières. Nous allons programmer un réseau de neuronnes 
+  dont l'objectif est de classifier les chiffres manuscrit de la base de données <a href="http://yann.lecun.com/exdb/mnist/"> MNIST</a>. 
+  Ensuite nous allons <span> fabriquer </span> pour chacun des chiffres de 0 à 9, la <span> meilleure représentation </span>; c'est à dire l'image 
+  parfaite que le réseau attendrait pour s'activer à 99% pour chacune des classes. Ce qui sera suprenant dans cette petite expérimentation est que, pour une image qui n'a aucun mais vraiment AUCUNNN sens à nos yeux, et bien le réseau lui est capable de dire si c'est un 0,1... ou 9.
+  Ce qui est assez critique comme comportement!  
 </div>
 
-<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+<p>Les réseaux de neuronnes (RN) sont une technique d’apprentissage machine de type connexioniste inspirée du fonctionnement du cerveau humain. Le principe de fonctionnement d’une telle architecture est assez simple. De facon brève, voici l’idée générale :</p>
 
 <blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+  <p>Nous avons un ensemble de données <strong>X</strong> (communément appelé les entrées du réeau) dont nous voulons prédire les sorties associées <strong>Y</strong> (<strong>Y</strong> peut être égale à <strong>X</strong> dans certaines architectures de RN comme les auto-encoders), le but est de minimiser l’erreur de prédiction qui est fonction de Y et de 
+<strong>Y’</strong> (sortie prédit pas le réseau). L’erreur <strong>E</strong> peut prendre plusieurs forme mais en général, elle représente la différence entre le réel <strong>Y</strong> et le prédit <strong>Y’</strong>. On peut donc conclure que plus <strong>E</strong> est petit, le mieux c’est. L’aapprentissage vise à trouver la configuration du réseau (les poids <strong>W</strong><sub><b>i</b></sub> <strong>i</strong> ∈ Ν ) qui minimise cette erreur.
+L’algorithme le plus utilisé pour cet apprentissage est la déscente du gradient. 
+.</p>
 </blockquote>
 
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<p>Vous trouverez sur mon <a href="https://github.com/angetato/Optimizers-for-Tensorflow">dépôt git</a>, quelques algorithmes d’optimisation dans les RN utilisant la descente du gradient.</p>
+
+<p><img src="http://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D" alt="img" /></p>
 
 <h2 id="inline-html-elements">Inline HTML elements</h2>
 
-<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>. (E &amp; Huang 2001)<sup id="fnref:Huang2001"><a href="#fn:Huang2001" class="footnote">1</a></sup></p>
 
 <ul>
   <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
@@ -234,6 +243,14 @@
 
 <p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
 
+<h2 id="references">References</h2>
+<div class="footnotes">
+  <ol>
+    <li id="fn:Huang2001">
+      <p>E, W. &amp; Huang, Z., 2001. Matching Conditions in Atomistic-Continuum Modeling of Materials. <em>arXiv.org</em>, (13), p.135501. Available at: <a href="http://arxiv.org/abs/cond-mat/0106615v1">http://arxiv.org/abs/cond-mat/0106615v1</a>. <a href="#fnref:Huang2001" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
 </div>
 
@@ -243,9 +260,9 @@
     
       <li>
         <h3>
-          <a href="/2018/03/19/comment-flouer-un-rseau-de-neuronnes/">
-            Comment flouer un réseau de neuronnes ?
-            <small>19 Mar 2018</small>
+          <a href="/2018/03/16/hello-world/">
+            Hello World
+            <small>16 Mar 2018</small>
           </a>
         </h3>
       </li>
