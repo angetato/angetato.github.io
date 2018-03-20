@@ -15,14 +15,14 @@ tags: []
   </p>
 </div>
 
-<p align="justify"> Les réseaux de neuronnes (RN) sont une technique d'apprentissage machine de type connexioniste inspirée du fonctionnement du cerveau humain. Le principe de fonctionnement d'une telle architecture est assez simple. De facon brève, voici l'idée générale :
+ Les réseaux de neuronnes (RN) sont une technique d'apprentissage machine de type connexioniste inspirée du fonctionnement du cerveau humain. Le principe de fonctionnement d'une telle architecture est assez simple. De facon brève, voici l'idée générale :
 
 > Nous avons un ensemble de données **X** (communément appelé les entrées du réeau) dont nous voulons prédire les sorties associées **Y** (**Y** peut être égale à **X** dans certaines architectures de RN comme les auto-encoders), le but est de minimiser l'erreur de prédiction qui est fonction de Y et de 
 **Y'** (sortie prédit pas le réseau). L'erreur **E** peut prendre plusieurs forme mais en général, elle représente la différence entre le réel **Y** et le prédit **Y'**. On peut donc conclure que plus **E** est petit, le mieux c'est. L'aapprentissage vise à trouver la configuration du réseau (les poids **W**<sub><b>i</b></sub> **i** &#8712; &#925;) qui minimise cette erreur.
 L'algorithme le plus utilisé pour cet apprentissage est la déscente du gradient.
 . 
 
-Vous trouverez sur mon [dépôt git](https://github.com/angetato/Optimizers-for-Tensorflow), quelques algorithmes d'optimisation dans les RN utilisant la descente du gradient. </p>
+Vous trouverez sur mon [dépôt git](https://github.com/angetato/Optimizers-for-Tensorflow), quelques algorithmes d'optimisation dans les RN utilisant la descente du gradient. 
 
 ![img](http://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D) 
 
