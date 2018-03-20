@@ -6,11 +6,13 @@ category:
 tags: []
 ---
 <div class="message">
+  <p align="justify">
   Allo les chefs. Dans cette recette, nous allons voir comment flouer un réseau de neuronnes de la plus simple des manières. Nous allons programmer un réseau de neuronnes 
   dont l'objectif est de classifier les chiffres manuscrit de la base de données <a href="http://yann.lecun.com/exdb/mnist/" > MNIST</a>. 
   Ensuite nous allons <span> fabriquer </span> pour chacun des chiffres de 0 à 9, la <span> meilleure représentation </span>; c'est à dire l'image 
   parfaite que le réseau attendrait pour s'activer à 99% pour chacune des classes. Ce qui sera suprenant dans cette petite expérimentation est que, pour une image qui n'a aucun mais vraiment AUCUNNN sens à nos yeux, et bien le réseau lui est capable de dire si c'est un 0,1... ou 9.
   Ce qui est assez critique comme comportement!  
+  </p>
 </div>
 
 Les réseaux de neuronnes (RN) sont une technique d'apprentissage machine de type connexioniste inspirée du fonctionnement du cerveau humain. Le principe de fonctionnement d'une telle architecture est assez simple. De facon brève, voici l'idée générale :
